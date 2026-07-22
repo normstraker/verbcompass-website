@@ -10,9 +10,9 @@ Last Updated: 2026-07-22
 
 ---
 
-# Current Phase
+Current Phase
 
-Website Foundation Complete
+Homepage Polish & Launch Preparation
 
 ---
 
@@ -42,6 +42,14 @@ Website Foundation Complete
 
 - Mobile menu
 - Navigation behavior
+
+GitHub repository
+Netlify deployment
+Custom domain (verbcompass.com)
+Cloudflare DNS
+HTTPS (Let's Encrypt)
+Automatic deployments
+Responsive website foundation
 
 ---
 
