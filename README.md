@@ -1,3 +1,7 @@
+---
+This is README.md file
+---
+
 # VerbCompass Website
 
 The official website for the **VerbCompass** family of language-learning applications.
@@ -109,7 +113,7 @@ The official VerbCompass applications are maintained in separate repositories.
 
 Current applications:
 
-- VerbCompass – Spanish Verb Companion
+- VerbCompass – Spanish Verb Companion (Android)
 
 Future planned applications:
 
