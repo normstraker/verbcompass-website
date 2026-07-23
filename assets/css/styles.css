@@ -447,7 +447,7 @@ button:focus-visible {
 
 .hero-brand,
 .hero-actions,
-.hero-summary {
+.hero-highlights {
   position: relative;
   z-index: 1;
 }
@@ -456,6 +456,13 @@ button:focus-visible {
   width: 118px;
   height: auto;
   margin: 0 auto 20px;
+}
+
+.hero-brand h1 {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: clamp(2.2rem, 4.6vw, 3.65rem);
 }
 
 .brand-rule {
@@ -554,40 +561,68 @@ button:focus-visible {
   );
 }
 
-.hero-summary {
+.button-text {
+  gap: 7px;
+  min-height: auto;
+  padding: 12px 6px;
+  border-color: transparent;
+  background: transparent;
+  color: var(--accent);
+  box-shadow: none;
+}
+
+.button-text span {
+  transition: transform 0.15s ease;
+}
+
+.button-text:hover {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.button-text:hover span {
+  transform: translateX(3px);
+}
+
+.hero-highlights {
+  position: relative;
+  z-index: 1;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
   margin-top: 34px;
-  padding-top: 22px;
+  padding-top: 24px;
   border-top: 1px solid var(--border-soft);
 }
 
-.hero-summary > p {
-  margin-bottom: 12px;
-  color: var(--text-soft);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.hero-highlight {
+  padding: 4px 20px;
 }
 
-.hero-summary-flow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
+.hero-highlight + .hero-highlight {
+  border-left: 1px solid var(--border-soft);
 }
 
-.hero-summary-flow span:not(.flow-arrow) {
+.hero-highlight strong,
+.hero-highlight span {
+  display: block;
+}
+
+.hero-highlight strong {
+  margin-bottom: 3px;
   color: var(--accent);
-  font-size: 0.83rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-size: 0.95rem;
+  font-weight: 850;
+  letter-spacing: -0.01em;
 }
 
-.flow-arrow {
-  color: var(--text-muted);
+.hero-highlight span {
+  color: var(--text-soft);
+  font-size: 0.79rem;
   font-weight: 700;
+  line-height: 1.35;
 }
 
 /* =====================================================
@@ -1157,6 +1192,10 @@ button:focus-visible {
     width: 100px;
   }
 
+  .hero-brand h1 {
+    font-size: clamp(2.15rem, 10vw, 3.15rem);
+  }
+
   .hero-actions {
     flex-direction: column;
   }
@@ -1256,8 +1295,19 @@ button:focus-visible {
     padding: 0 4px;
   }
 
-  .hero-summary-flow {
-    gap: 7px;
+  .hero-highlights {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .hero-highlight {
+    padding: 0;
+  }
+
+  .hero-highlight + .hero-highlight {
+    padding-top: 14px;
+    border-top: 1px solid var(--border-soft);
+    border-left: 0;
   }
 
   .feature-card {
