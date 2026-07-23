@@ -43,13 +43,15 @@ Homepage Polish & Launch Preparation
 - Mobile menu
 - Navigation behavior
 
-GitHub repository
-Netlify deployment
-Custom domain (verbcompass.com)
-Cloudflare DNS
-HTTPS (Let's Encrypt)
-Automatic deployments
-Responsive website foundation
+## Hosting and Deployment
+
+- GitHub repository connected to Netlify
+- Production deployments configured from the main branch
+- Custom domain connected: verbcompass.com
+- Cloudflare DNS configured
+- HTTPS enabled with Let's Encrypt
+- www.verbcompass.com set as the primary domain
+- Responsive website foundation
 
 ---
 
@@ -94,4 +96,16 @@ The website intentionally mirrors the design language of the VerbCompass applica
 
 # Current Focus
 
-The next development effort is focused on refining the homepage to improve first impressions, communicate the value of VerbCompass more effectively, and prepare the website for public launch.
+Homepage polish is in progress on:
+
+feature/homepage-polish-v2
+
+Completed so far:
+
+- Refined hero messaging
+- Improved hero call-to-action hierarchy
+- Added clearer product highlights
+
+Website work is temporarily paused while the VerbCompass – Spanish Verb Companion Android application moves toward Google Play release.
+
+When website work resumes, continue refining the homepage and add the final Google Play badge, store link, and application screenshots.
