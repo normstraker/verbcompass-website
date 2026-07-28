@@ -1072,6 +1072,244 @@ button:focus-visible {
 }
 
 /* =====================================================
+   FOUNDING TESTERS: SCREENSHOT GALLERY
+   ===================================================== */
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.screenshot-card {
+  margin: 0;
+  overflow: hidden;
+
+  border: 1px solid var(--accent-border-soft);
+  border-radius: var(--radius-xl);
+
+  background: linear-gradient(
+    180deg,
+    var(--panel) 0%,
+    var(--surface-blue-light) 100%
+  );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    var(--shadow-soft);
+
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.screenshot-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.screenshot-card img {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  object-position: top;
+  border-bottom: 1px solid var(--border-soft);
+  background: var(--surface-muted);
+}
+
+.screenshot-card figcaption {
+  padding: 22px;
+}
+
+.screenshot-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.screenshot-card p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+/* =====================================================
+   FOUNDING TESTERS: BENEFITS
+   ===================================================== */
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.benefit-card {
+  padding: 24px;
+
+  border: 1px solid var(--accent-border-soft);
+  border-radius: var(--radius-xl);
+
+  background: linear-gradient(
+    180deg,
+    var(--panel) 0%,
+    var(--surface-blue-light) 100%
+  );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    var(--shadow-soft);
+}
+
+.benefit-card-featured {
+  border-color: var(--accent);
+  background: linear-gradient(180deg, var(--panel) 0%, var(--accent-soft) 100%);
+}
+
+.benefit-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+
+  border: 1px solid var(--accent-border-soft);
+  border-radius: var(--radius-lg);
+
+  background: var(--panel);
+  color: var(--accent);
+  box-shadow: var(--shadow-soft);
+}
+
+.benefit-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.benefit-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.benefit-card p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+/* =====================================================
+   FOUNDING TESTERS: TIMELINE
+   ===================================================== */
+
+.tester-timeline {
+  position: relative;
+  display: grid;
+  gap: 16px;
+
+  margin: 30px 0 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.tester-timeline::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  bottom: 28px;
+  left: 27px;
+
+  width: 2px;
+  background: var(--accent-soft);
+}
+
+.tester-timeline-step {
+  position: relative;
+  z-index: 1;
+
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+
+  padding: 20px;
+
+  border: 1px solid var(--accent-border-soft);
+  border-radius: var(--radius-xl);
+
+  background: linear-gradient(
+    180deg,
+    var(--panel) 0%,
+    var(--surface-blue-light) 100%
+  );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    var(--shadow-soft);
+}
+
+.tester-timeline-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 56px;
+  height: 56px;
+
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-pill);
+
+  background: linear-gradient(
+    180deg,
+    var(--accent) 0%,
+    var(--accent-hover) 100%
+  );
+
+  color: var(--text-inverse);
+  font-size: 1rem;
+  font-weight: 900;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    var(--shadow-soft);
+}
+
+.tester-timeline-step h3 {
+  margin: 3px 0 6px;
+  font-size: 1.18rem;
+}
+
+.tester-timeline-step p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+/* =====================================================
+   FOUNDING TESTERS: FINAL CTA
+   ===================================================== */
+
+.final-cta {
+  text-align: center;
+}
+
+.final-cta .button {
+  margin-top: 10px;
+}
+
+.final-cta > p:last-child {
+  margin-top: 22px;
+  font-size: 0.94rem;
+  color: var(--text-soft);
+}
+
+/* =====================================================
    RESPONSIVE: TABLET
    ===================================================== */
 
@@ -1105,6 +1343,10 @@ button:focus-visible {
 
   .language-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .screenshot-grid {
+    gap: 18px;
   }
 }
 
@@ -1252,6 +1494,20 @@ button:focus-visible {
   .prose-panel {
     padding: 28px 22px;
   }
+
+  .screenshot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .screenshot-card {
+    max-width: 430px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .benefit-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* =====================================================
@@ -1334,6 +1590,21 @@ button:focus-visible {
   .footer-brand {
     flex-direction: column;
     text-align: center;
+  }
+
+  .tester-timeline::before {
+    left: 21px;
+  }
+
+  .tester-timeline-step {
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 14px;
+    padding: 18px 16px;
+  }
+
+  .tester-timeline-number {
+    width: 44px;
+    height: 44px;
   }
 }
 

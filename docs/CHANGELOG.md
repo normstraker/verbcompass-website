@@ -45,3 +45,21 @@ Initial public website foundation completed.
 - Refined homepage hero messaging
 - Improved hero call-to-action hierarchy
 - Replaced the previous hero summary with clearer product highlights
+
+## 2026-07-28
+
+### Added
+
+- New Founding Testers page
+- Responsive screenshot gallery
+- Benefits card grid
+- Visual testing timeline
+- FAQ section
+- Personal "Why VerbCompass Exists" section
+
+### Improved
+
+- Consistent page layout using shared website components
+- Improved page flow and typography
+- Refined final call-to-action
+- Additional information describing the app and testing program

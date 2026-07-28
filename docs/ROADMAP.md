@@ -136,3 +136,12 @@ Potential future additions include:
 The website should remain intentionally lightweight while serving as the public home for the entire VerbCompass family of language-learning applications.
 
 Each language application will maintain its own identity while sharing a common design language and navigation structure through the main VerbCompass website.
+
+
+## Recently Completed
+
+- Public website foundation
+- Support page
+- Privacy Policy
+- About page
+- Founding Testers recruitment page
