@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <title>VerbCompass Icon</title>
+
+  <path
+    d="M64 10L118 64L64 118L10 64L64 10Z"
+    fill="#2563EB"
+  />
+
+  <path
+    d="M64 29
+       L71.5 56.5
+       L99 64
+       L71.5 71.5
+       L64 99
+       L56.5 71.5
+       L29 64
+       L56.5 56.5
+       L64 29Z"
+    fill="#FFFFFF"
+  />
+
+  <circle
+    cx="64"
+    cy="64"
+    r="5"
+    fill="#2563EB"
+  />
+</svg>
