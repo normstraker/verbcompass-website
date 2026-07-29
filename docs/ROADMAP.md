@@ -145,3 +145,14 @@ Each language application will maintain its own identity while sharing a common 
 - Privacy Policy
 - About page
 - Founding Testers recruitment page
+
+Website work is temporarily paused while the Android application prepares for Closed Testing on Google Play.
+
+When website work resumes:
+
+- Add official Google Play badge
+- Link to Google Play listing
+- Add final application screenshots
+- Complete accessibility review
+- Final SEO review
+- Cross-browser testing
