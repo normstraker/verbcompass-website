@@ -146,9 +146,9 @@ Each language application will maintain its own identity while sharing a common 
 - About page
 - Founding Testers recruitment page
 
-Website work is temporarily paused while the Android application prepares for Closed Testing on Google Play.
+The website is supporting active Founding Tester recruitment while Android release 1.0.3 is in Google Play Closed Testing.
 
-When website work resumes:
+Remaining website work:
 
 - Add official Google Play badge
 - Link to Google Play listing

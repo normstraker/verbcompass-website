@@ -4,11 +4,11 @@ This is PROJECT_STATUS.md file
 
 ## Current Status
 
-Last Updated: 2026-07-28
+Last Updated: 2026-08-10
 
 ### Website
 
-Status: Polish Phase
+Status: Founding Tester Recruitment Support
 
 Completed:
 
@@ -17,6 +17,9 @@ Completed:
 - Support page
 - Privacy page
 - Founding Testers page
+- Netlify Founding Tester Request form
+- Founding Tester thank-you page
+- Founding Tester privacy disclosures
 - Responsive navigation
 - Mobile navigation
 - Netlify deployment
@@ -27,8 +30,11 @@ Completed:
 - Testing timeline
 - FAQ
 - Call-to-action section
+- Netlify form detection and submission handling
+- Honeypot spam protection
+- Email notifications for new Founding Tester requests
 
-The public website is now feature complete and has entered the polish phase.
+The public website is supporting active Founding Tester recruitment through a manually reviewed request workflow.
 
 Remaining work consists primarily of:
 
@@ -47,7 +53,7 @@ Remaining work consists primarily of:
 
 Current Phase
 
-Homepage Polish & Launch Preparation
+Founding Tester Recruitment Support
 
 ---
 
@@ -131,16 +137,15 @@ The website intentionally mirrors the design language of the VerbCompass applica
 
 # Current Focus
 
-Homepage polish is in progress on:
+The Founding Tester recruitment workflow is live on the production website.
 
-feature/homepage-polish-v2
+Verified:
 
-Completed so far:
+- Netlify detected the `founding-tester-request` form.
+- A live form submission succeeded.
+- All expected fields were received correctly.
+- The branded thank-you redirect succeeded.
+- Honeypot spam protection is active.
+- Email notifications are working.
 
-- Refined hero messaging
-- Improved hero call-to-action hierarchy
-- Added clearer product highlights
-
-Website work is temporarily paused while the VerbCompass – Spanish Verb Companion Android application moves toward Google Play release.
-
-When website work resumes, continue refining the homepage and add the final Google Play badge, store link, and application screenshots.
+Continue by monitoring Founding Tester requests and supporting the Google Play Closed Testing period. Production store badges and download links remain deferred until public release.

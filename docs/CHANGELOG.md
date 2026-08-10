@@ -11,6 +11,33 @@ All notable changes to the VerbCompass website will be documented here.
 
 ---
 
+## 2026-08-10
+
+### Added
+
+- Netlify Founding Tester Request form collecting name, Google-account email, Spanish level, study methods, and an optional message
+- Branded Founding Tester thank-you page
+- Honeypot spam protection
+- Email notifications for new form submissions
+
+### Changed
+
+- Replaced the public Google Play opt-in flow with a manually reviewed Founding Tester request process
+- Updated the Founding Tester timeline, FAQ, and calls to action for manual Google Play Closed Test enrollment
+- Updated the Privacy Policy for Founding Tester request information, processing, and retention
+
+### Verified
+
+- Netlify form detection
+- Successful live form submission
+- Correct receipt of all expected fields
+- Successful thank-you redirect
+- Active honeypot protection
+- Working email notifications
+- Production deployment from the main branch
+
+---
+
 ## 2026-07-22
 
 ### Added
