@@ -113,13 +113,17 @@ The official VerbCompass applications are maintained in separate repositories.
 
 Current applications:
 
-- VerbCompass – Spanish Verb Companion (Android)
+- VerbCompass – Spanish Verb Companion (web edition):
+  https://app.verbcompass.com/
+- VerbCompass – Spanish Verb Companion (Android closed test)
 
-Future planned applications:
-
-- VerbCompass French
-- VerbCompass German
-- VerbCompass Italian
+The immediate direction is to use the Spanish-for-English-speakers web edition
+as the public entry point to VerbCompass and learn from Founding Testers before
+the Android app is released publicly. Installable VerbCompass applications use
+a limited Free Access model alongside Full Access; this policy is intended to
+carry across future language editions. The browser edition is outside that
+access model. The next intended audience is English learners, beginning with
+Spanish speakers.
 
 ---
 

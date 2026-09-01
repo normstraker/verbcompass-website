@@ -28,7 +28,17 @@ Completed:
 - FAQ
 - Call-to-action section
 
-The public website is now feature complete and has entered the polish phase.
+The public website is being updated to make the Spanish web edition the
+main hands-on introduction to VerbCompass and provide a clear path into the
+Android Founding Tester program.
+
+The first public release remains focused on English-speaking learners of
+Spanish. The next intended product direction is English verb support for
+English learners, beginning with Spanish speakers.
+
+Installable VerbCompass applications will provide limited Free Access alongside
+Full Access across language editions. The browser edition is outside that
+access model.
 
 Remaining work consists primarily of:
 
@@ -141,6 +151,7 @@ Completed so far:
 - Improved hero call-to-action hierarchy
 - Added clearer product highlights
 
-Website work is temporarily paused while the VerbCompass – Spanish Verb Companion Android application moves toward Google Play release.
-
-When website work resumes, continue refining the homepage and add the final Google Play badge, store link, and application screenshots.
+Current work is focused on connecting the Spanish web edition to the
+Founding Tester program. After that, continue refining the homepage and add the
+final Google Play badge, store link, and application screenshots when they are
+available.

@@ -124,7 +124,6 @@ Potential future additions include:
 - Frequently Asked Questions expansion
 - Release notes page
 - Educational resources
-- Language-specific landing pages
 - Blog or development updates
 - Video demonstrations
 - User guides
@@ -133,9 +132,9 @@ Potential future additions include:
 
 # Long-Term Vision
 
-The website should remain intentionally lightweight while serving as the public home for the entire VerbCompass family of language-learning applications.
+The website should remain intentionally lightweight while serving as the public home for VerbCompass, the Spanish web edition, and the Android release.
 
-Each language application will maintain its own identity while sharing a common design language and navigation structure through the main VerbCompass website.
+The immediate priority is to make the web edition a useful public entry point and a natural path into the Founding Tester program. Installable VerbCompass applications will offer limited Free Access alongside Full Access across future language editions; the browser edition is outside that access model. The first public release will support English-speaking learners of Spanish. The next intended product direction is English verb support for English learners, beginning with Spanish speakers; its design will be informed by lessons from web users and Android testers.
 
 
 ## Recently Completed
@@ -145,10 +144,11 @@ Each language application will maintain its own identity while sharing a common 
 - Privacy Policy
 - About page
 - Founding Testers recruitment page
+- Web edition custom domain (`app.verbcompass.com`)
 
-Website work is temporarily paused while the Android application prepares for Closed Testing on Google Play.
+Current website work connects the Spanish web edition with the Android Founding Tester program.
 
-When website work resumes:
+Next steps:
 
 - Add official Google Play badge
 - Link to Google Play listing
