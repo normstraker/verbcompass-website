@@ -867,6 +867,16 @@ button:focus-visible {
   gap: 14px;
 }
 
+.access-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.access-direction-card {
+  grid-column: 1 / -1;
+}
+
 .language-card {
   min-height: 168px;
   padding: 22px;
@@ -919,6 +929,10 @@ button:focus-visible {
 .language-card p {
   color: var(--text-soft);
   font-size: 0.9rem;
+}
+
+.language-card .text-link {
+  margin-top: 18px;
 }
 
 /* =====================================================
@@ -1685,6 +1699,10 @@ button:focus-visible {
   }
 
   .language-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .access-grid {
     grid-template-columns: 1fr;
   }
 
