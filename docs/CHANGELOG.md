@@ -6,6 +6,22 @@
 
 - Initial website project
 - Basic folder structure
+- Founding Tester feedback form at `/founding-testers/feedback/`
+- Dedicated feedback thank-you page
+- Structured feedback fields for category, description, optional device
+  details, and optional contact permission
+- Form-specific Netlify notification to `support@verbcompass.com`
+
+### Changed
+
+- Founding Tester instructions and FAQ now direct testers to the feedback form.
+- Privacy Policy now covers Founding Tester feedback processing and retention.
+
+### Verified
+
+- Netlify detects the `founding-tester-feedback` form.
+- End-to-end submission, thank-you redirect, Netlify storage, and support email
+  notification passed on September 1, 2026.
 
 All notable changes to the VerbCompass website will be documented here.
 

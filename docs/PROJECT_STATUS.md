@@ -4,7 +4,7 @@ This is PROJECT_STATUS.md file
 
 ## Current Status
 
-Last Updated: 2026-07-28
+Last Updated: 2026-09-01
 
 ### Website
 
@@ -27,6 +27,11 @@ Completed:
 - Testing timeline
 - FAQ
 - Call-to-action section
+- Founding Tester request form and thank-you page
+- Founding Tester feedback form and thank-you page
+- Form-specific Netlify feedback notifications to `support@verbcompass.com`
+- Privacy coverage for tester requests and feedback
+- Custom application address at `app.verbcompass.com`
 
 The public website is being updated to make the Spanish web edition the
 main hands-on introduction to VerbCompass and provide a clear path into the
@@ -39,6 +44,13 @@ English learners, beginning with Spanish speakers.
 Installable VerbCompass applications will provide limited Free Access alongside
 Full Access across language editions. The browser edition is outside that
 access model.
+
+Verified September 1, 2026:
+
+- Android feedback link opens the hosted form
+- Feedback submission reaches Netlify
+- Feedback thank-you redirect works
+- Submission email reaches `support@verbcompass.com`
 
 Remaining work consists primarily of:
 
@@ -151,7 +163,8 @@ Completed so far:
 - Improved hero call-to-action hierarchy
 - Added clearer product highlights
 
-Current work is focused on connecting the Spanish web edition to the
-Founding Tester program. After that, continue refining the homepage and add the
-final Google Play badge, store link, and application screenshots when they are
+The Spanish web edition, Founding Tester request workflow, and Android feedback
+workflow are connected and operational. The immediate focus is now tester
+recruitment and feedback collection. Continue website polish later, and add the
+final Google Play badge and public store link when the production listing is
 available.
