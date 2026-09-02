@@ -1332,6 +1332,7 @@ button:focus-visible {
 
 .tester-request-form input[type="text"],
 .tester-request-form input[type="email"],
+.tester-request-form select,
 .tester-request-form textarea {
   width: 100%;
   padding: 12px 14px;
@@ -1346,6 +1347,7 @@ button:focus-visible {
 }
 
 .tester-request-form input:focus-visible,
+.tester-request-form select:focus-visible,
 .tester-request-form textarea:focus-visible {
   border-color: var(--accent);
   outline: 3px solid var(--accent-soft);

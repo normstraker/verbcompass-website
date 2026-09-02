@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Send feedback about the VerbCompass Android closed test." />
+    <title>Founding Tester Feedback — VerbCompass</title>
+    <link rel="icon" type="image/svg+xml" href="../../assets/images/verbcompass-icon.svg" />
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+    <script src="../../assets/js/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="site-brand" href="../../" aria-label="VerbCompass home">
+          <svg class="verbcompass-icon site-brand-icon" viewBox="0 0 128 128" aria-hidden="true">
+            <path class="verbcompass-bg" d="M64 10L118 64L64 118L10 64L64 10Z" />
+            <path class="verbcompass-star" d="M64 29L71.5 56.5L99 64L71.5 71.5L64 99L56.5 71.5L29 64L56.5 56.5L64 29Z" />
+            <circle class="verbcompass-dot" cx="64" cy="64" r="5" />
+          </svg>
+          <span class="site-brand-copy"><strong>VerbCompass</strong><span>Spanish Verb Companion</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNavigation">
+          <span class="menu-toggle-label">Menu</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16" /><path d="M4 12h16" /><path d="M4 17h16" /></svg>
+        </button>
+        <nav id="siteNavigation" class="site-navigation" aria-label="Primary navigation">
+          <a class="site-nav-link" href="../../">Home</a>
+          <a class="site-nav-link" href="../../about/">About</a>
+          <a class="site-nav-link" href="../../support/">Support</a>
+          <a class="site-nav-link" href="../../privacy/">Privacy</a>
+        </nav>
+      </div>
+    </header>
+    <main id="mainContent">
+      <section class="page-hero">
+        <div class="page-container">
+          <div class="page-hero-panel">
+            <p class="section-kicker">Founding Tester Program</p>
+            <h1>Tell us about your experience with VerbCompass.</h1>
+            <p>Your honest feedback helps us find problems, improve the learning experience, and prepare the Android app for public release. Submit this form whenever you have something useful to share.</p>
+          </div>
+        </div>
+      </section>
+      <section class="content-section content-section-soft">
+        <div class="page-container">
+          <article class="prose-panel">
+            <p class="section-kicker">Tester Feedback</p>
+            <h2>What did you notice?</h2>
+            <p>Please describe one main problem, suggestion, or observation per submission when practical. That makes each report easier to review and track.</p>
+            <form class="tester-request-form" name="founding-tester-feedback" method="POST" action="/founding-testers/feedback/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="founding-tester-feedback" />
+              <p class="honeypot-field" aria-hidden="true"><label>Do not fill this out: <input name="bot-field" type="text" tabindex="-1" autocomplete="off" /></label></p>
+              <div class="form-field">
+                <label for="testerEmail">Google-account email used for testing</label>
+                <input id="testerEmail" name="google-play-email" type="email" autocomplete="email" required />
+                <p class="form-help">Use the same account that joined the Google Play Closed Test.</p>
+              </div>
+              <div class="form-field">
+                <label for="feedbackCategory">What kind of feedback is this?</label>
+                <select id="feedbackCategory" name="category" required>
+                  <option value="">Choose a category</option>
+                  <option value="problem">A problem or error</option>
+                  <option value="confusing">Something confusing</option>
+                  <option value="suggestion">A suggestion</option>
+                  <option value="positive">Something that worked well</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="feedbackDescription">What happened, or what would you like us to know?</label>
+                <textarea id="feedbackDescription" name="description" rows="8" required></textarea>
+                <p class="form-help">For a problem, include what you were doing, what you expected, and what happened instead.</p>
+              </div>
+              <div class="form-field">
+                <label for="deviceModel">Device model <span class="form-optional">Optional</span></label>
+                <input id="deviceModel" name="device-model" type="text" autocomplete="off" placeholder="Example: Samsung Galaxy A54" />
+              </div>
+              <div class="form-field">
+                <label for="androidVersion">Android version <span class="form-optional">Optional</span></label>
+                <input id="androidVersion" name="android-version" type="text" inputmode="numeric" autocomplete="off" placeholder="Example: Android 15" />
+              </div>
+              <fieldset class="form-field">
+                <legend>May we contact you about this report? <span class="form-optional">Optional</span></legend>
+                <label class="form-option"><input name="contact-permission" type="checkbox" value="yes" /> Yes, you may email me if you need more information.</label>
+              </fieldset>
+              <p class="form-privacy-note">Please do not include passwords, financial information, home addresses, or other sensitive information. See our <a href="../../privacy/">Privacy Policy</a>.</p>
+              <button class="button button-primary" type="submit">Send Feedback</button>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="page-container site-footer-inner">
+        <div class="footer-brand"><strong>VerbCompass</strong><span>Spanish Verb Companion</span></div>
+        <nav class="footer-navigation" aria-label="Footer navigation"><a href="../../">Home</a><a href="../">Founding Testers</a><a href="../../support/">Support</a><a href="../../privacy/">Privacy</a></nav>
+        <p class="footer-copyright">Copyright © 2026 VerbCompass. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
