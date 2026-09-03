@@ -8,7 +8,7 @@ Last Updated: 2026-09-03
 
 ### Website
 
-Status: Educator Outreach Preparation
+Status: Educator Outreach Foundation Implemented — Verification Pending
 
 Completed:
 
@@ -32,17 +32,20 @@ Completed:
 - Form-specific Netlify feedback notifications to `support@verbcompass.com`
 - Privacy coverage for tester requests and feedback
 - Custom application address at `app.verbcompass.com`
+- Educator landing page, five-minute quick start, and practical workflows
+- Separate educator feedback form and thank-you page
+- Educator roles in the Founding Tester request form
+- Privacy coverage for educator feedback
 
 The public website is being updated to make the Spanish web edition the
 main hands-on introduction to VerbCompass and provide a clear path into the
 Android Founding Tester program.
 
-The next website task is an educator-facing bridge that presents the free
-browser edition as a useful resource first and the Android Founding Tester
-program as a separate, optional invitation. The page must explain that the
-current goal is a public Google Play release and that completing the Spanish
-release establishes the foundation for future English-verb editions, beginning
-with English for Spanish-speaking learners.
+The educator-facing bridge is implemented at `/educators/`. It presents the
+free browser edition as a useful resource first and the Android Founding Tester
+program as a separate, optional invitation. It explains the public Google Play
+release goal and the future English-verb direction without making browser use
+conditional on feedback or testing.
 
 The canonical implementation plan is maintained in the Android repository at
 `docs/EDUCATOR_OUTREACH_IMPLEMENTATION_PLAN.md`.
@@ -64,9 +67,8 @@ Verified September 1, 2026:
 
 Remaining work consists primarily of:
 
-- Educator landing page and five-minute quick start
-- Educator feedback path that does not require a Google-account email
-- Founding Tester form options for teachers, tutors, and program leaders
+- Deploy-preview and Netlify form-detection verification
+- Educator feedback notification configuration and submission test
 - Private educator review before broad outreach
 - Final content review
 - Accessibility review
@@ -83,7 +85,7 @@ Remaining work consists primarily of:
 
 Current Phase
 
-Educator Outreach Preparation
+Educator Outreach Foundation Verification
 
 ---
 
@@ -167,12 +169,10 @@ The website intentionally mirrors the design language of the VerbCompass applica
 
 # Current Focus
 
-The Spanish web edition, Founding Tester request workflow, and Android feedback
-workflow are connected and operational. General Reddit recruitment has not
-produced the needed cohort. The immediate focus is now the educator landing
-page, quick-start activity, educator feedback path, and educator-aware Founding
-Tester form defined in the Android repository's
-`docs/EDUCATOR_OUTREACH_IMPLEMENTATION_PLAN.md`.
+The Spanish web edition, Founding Tester workflows, and educator outreach
+foundation are implemented. General Reddit recruitment has not produced the
+needed cohort. The immediate focus is deploy-preview verification, a small
+private educator review, and revision before broader outreach.
 
 The website must keep the free browser resource and optional Android test
 procedurally separate while making the larger purpose transparent. After a

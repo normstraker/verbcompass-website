@@ -11,11 +11,17 @@
 - Structured feedback fields for category, description, optional device
   details, and optional contact permission
 - Form-specific Netlify notification to `support@verbcompass.com`
+- Educator resource page at `/educators/` with practical workflows, a
+  five-minute quick start, product limits, and transparent product goals
+- Separate `educator-feedback` form and dedicated thank-you page
 
 ### Changed
 
 - Founding Tester instructions and FAQ now direct testers to the feedback form.
 - Privacy Policy now covers Founding Tester feedback processing and retention.
+- Founding Tester requests now recognize teachers, tutors, and program leaders.
+- Primary navigation now includes the educator resource.
+- Privacy Policy now covers educator feedback and excludes student information.
 
 ### Verified
 

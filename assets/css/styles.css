@@ -1085,6 +1085,39 @@ button:focus-visible {
   margin-top: 7px;
 }
 
+.educator-hero-panel {
+  max-width: 980px;
+}
+
+.resource-assurance {
+  margin-top: 24px;
+  padding: 14px 18px;
+  border: 1px solid var(--accent-border-soft);
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+}
+
+.quick-start-list {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0 30px;
+}
+
+.quick-start-list li {
+  padding-left: 6px;
+}
+
+.transparency-panel {
+  border-color: var(--accent-border-soft);
+  background: linear-gradient(180deg, var(--panel) 0%, var(--accent-soft) 100%);
+}
+
+.thank-you-page {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
 /* =====================================================
    FOUNDING TESTERS: SCREENSHOT GALLERY
    ===================================================== */

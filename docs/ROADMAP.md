@@ -60,7 +60,7 @@ Planned
 
 ## Status
 
-Planned for immediate implementation
+Implemented locally; deploy and private-review verification pending
 
 This focused phase takes priority over general website polish while Founding
 Tester recruitment is active. Its canonical implementation plan is maintained
@@ -191,7 +191,7 @@ Current website work connects the Spanish web edition with the Android Founding 
 
 Next steps:
 
-- Complete the Educator Outreach Foundation work above
+- Verify the Educator Outreach Foundation on a deploy preview
 - Add official Google Play badge
 - Link to Google Play listing
 - Add final application screenshots
