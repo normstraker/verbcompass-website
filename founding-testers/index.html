@@ -68,6 +68,7 @@
           aria-label="Primary navigation"
         >
           <a class="site-nav-link" href="../">Home</a>
+          <a class="site-nav-link" href="../educators/">Educators</a>
           <a class="site-nav-link" href="../about/">About</a>
           <a class="site-nav-link" href="../support/">Support</a>
           <a class="site-nav-link" href="../privacy/">Privacy</a>
@@ -568,7 +569,17 @@
               </div>
 
               <fieldset class="form-field">
-                <legend>Spanish level</legend>
+                <legend>What best describes you?</legend>
+                <div class="form-options form-options-grid">
+                  <label class="form-option"><input type="radio" name="participant_role" value="spanish-learner" required /><span>Spanish learner</span></label>
+                  <label class="form-option"><input type="radio" name="participant_role" value="teacher" /><span>Teacher / professor</span></label>
+                  <label class="form-option"><input type="radio" name="participant_role" value="tutor" /><span>Tutor</span></label>
+                  <label class="form-option"><input type="radio" name="participant_role" value="program-leader" /><span>Program leader</span></label>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-field">
+                <legend>Spanish level or proficiency</legend>
                 <div class="form-options">
                   <label class="form-option">
                     <input
@@ -840,6 +851,7 @@
         </div>
 
         <nav class="footer-navigation" aria-label="Footer navigation">
+          <a href="../educators/">Educators</a>
           <a href="../">Home</a>
           <a href="../about/">About</a>
           <a href="../support/">Support</a>
