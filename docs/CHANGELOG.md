@@ -22,6 +22,9 @@
 - Founding Tester requests now recognize teachers, tutors, and program leaders.
 - Primary navigation now includes the educator resource.
 - Privacy Policy now covers educator feedback and excludes student information.
+- Primary-page footers now use the same Home, Educators, About, Support, and
+  Privacy link order and inclusion.
+- The Educators footer now uses the standard VerbCompass icon and brand layout.
 
 ### Verified
 
