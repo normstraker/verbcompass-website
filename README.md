@@ -29,7 +29,8 @@ This repository does **not** contain the source code for the VerbCompass learnin
 Current development phase:
 
 - ✅ Website Foundation Complete
-- 🚧 Visual Polish & Launch Preparation
+- ✅ Founding Tester request and feedback workflows live
+- 🚧 Educator Outreach Preparation
 
 Core pages currently implemented:
 
@@ -38,13 +39,16 @@ Core pages currently implemented:
 - Support
 - Privacy
 
-The next development phase focuses on:
+The current development phase focuses on:
 
-- Homepage refinement
-- Google Play integration
-- SEO
-- Accessibility
-- Launch preparation
+- An educator-facing introduction to the free browser edition
+- A five-minute educator quick-start activity
+- An educator feedback path separate from Android enrollment
+- Clear, low-pressure explanation of the Google Play release goal
+- Private educator review before broader outreach
+
+General visual polish, SEO, accessibility review, and public Google Play
+integration remain planned after the educator outreach foundation.
 
 ---
 
@@ -80,6 +84,11 @@ Current documents include:
 
 - PROJECT_STATUS.md
 - CHANGELOG.md
+- NEXT_SESSION_HANDOFF.md
+
+The canonical educator outreach plan is maintained in the related Android
+repository at
+`spanish-verb-companion/docs/EDUCATOR_OUTREACH_IMPLEMENTATION_PLAN.md`.
 
 ---
 

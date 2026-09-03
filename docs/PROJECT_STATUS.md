@@ -4,11 +4,11 @@ This is PROJECT_STATUS.md file
 
 ## Current Status
 
-Last Updated: 2026-09-01
+Last Updated: 2026-09-03
 
 ### Website
 
-Status: Polish Phase
+Status: Educator Outreach Preparation
 
 Completed:
 
@@ -37,6 +37,16 @@ The public website is being updated to make the Spanish web edition the
 main hands-on introduction to VerbCompass and provide a clear path into the
 Android Founding Tester program.
 
+The next website task is an educator-facing bridge that presents the free
+browser edition as a useful resource first and the Android Founding Tester
+program as a separate, optional invitation. The page must explain that the
+current goal is a public Google Play release and that completing the Spanish
+release establishes the foundation for future English-verb editions, beginning
+with English for Spanish-speaking learners.
+
+The canonical implementation plan is maintained in the Android repository at
+`docs/EDUCATOR_OUTREACH_IMPLEMENTATION_PLAN.md`.
+
 The first public release remains focused on English-speaking learners of
 Spanish. The next intended product direction is English verb support for
 English learners, beginning with Spanish speakers.
@@ -54,6 +64,10 @@ Verified September 1, 2026:
 
 Remaining work consists primarily of:
 
+- Educator landing page and five-minute quick start
+- Educator feedback path that does not require a Google-account email
+- Founding Tester form options for teachers, tutors, and program leaders
+- Private educator review before broad outreach
 - Final content review
 - Accessibility review
 - Cross-browser testing
@@ -69,7 +83,7 @@ Remaining work consists primarily of:
 
 Current Phase
 
-Homepage Polish & Launch Preparation
+Educator Outreach Preparation
 
 ---
 
@@ -153,18 +167,16 @@ The website intentionally mirrors the design language of the VerbCompass applica
 
 # Current Focus
 
-Homepage polish is in progress on:
-
-feature/homepage-polish-v2
-
-Completed so far:
-
-- Refined hero messaging
-- Improved hero call-to-action hierarchy
-- Added clearer product highlights
-
 The Spanish web edition, Founding Tester request workflow, and Android feedback
-workflow are connected and operational. The immediate focus is now tester
-recruitment and feedback collection. Continue website polish later, and add the
-final Google Play badge and public store link when the production listing is
-available.
+workflow are connected and operational. General Reddit recruitment has not
+produced the needed cohort. The immediate focus is now the educator landing
+page, quick-start activity, educator feedback path, and educator-aware Founding
+Tester form defined in the Android repository's
+`docs/EDUCATOR_OUTREACH_IMPLEMENTATION_PLAN.md`.
+
+The website must keep the free browser resource and optional Android test
+procedurally separate while making the larger purpose transparent. After a
+small private educator review validates the offer, outreach can expand through
+approved association and community channels. Continue general website polish
+later, and add the final Google Play badge and public store link when the
+production listing is available.
