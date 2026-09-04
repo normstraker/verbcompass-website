@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Verified — September 4, 2026
+
+- Netlify detects the `educator-feedback` form.
+- Educator feedback submission, storage, thank-you redirect, and notification
+  delivery to `support@verbcompass.com` work end to end.
+
 ### Added
 
 - Initial website project

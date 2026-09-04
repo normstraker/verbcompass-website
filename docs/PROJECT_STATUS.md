@@ -4,7 +4,7 @@ This is PROJECT_STATUS.md file
 
 ## Current Status
 
-Last Updated: 2026-09-03
+Last Updated: 2026-09-04
 
 ### Website
 
@@ -36,6 +36,8 @@ Completed:
 - Separate educator feedback form and thank-you page
 - Educator roles in the Founding Tester request form
 - Privacy coverage for educator feedback
+- Verified educator-feedback submission and notification to
+  `support@verbcompass.com`
 
 The public website is being updated to make the Spanish web edition the
 main hands-on introduction to VerbCompass and provide a clear path into the
@@ -67,8 +69,6 @@ Verified September 1, 2026:
 
 Remaining work consists primarily of:
 
-- Deploy-preview and Netlify form-detection verification
-- Educator feedback notification configuration and submission test
 - Private educator review before broad outreach
 - Final content review
 - Accessibility review
