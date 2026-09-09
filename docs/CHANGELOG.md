@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+### Outreach Status — September 9, 2026
+
+- Recorded that eight individualized private educator-review messages were
+  sent September 8–9 and responses are pending.
+- Recorded that five organizational gatekeeper channels are staged but remain
+  uncontacted; no broad sharing has begun.
+
 ### Verified — September 4, 2026
 
 - Netlify detects the `educator-feedback` form.

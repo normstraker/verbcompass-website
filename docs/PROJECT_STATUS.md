@@ -4,11 +4,11 @@ This is PROJECT_STATUS.md file
 
 ## Current Status
 
-Last Updated: 2026-09-04
+Last Updated: 2026-09-09
 
 ### Website
 
-Status: Educator Outreach Foundation Implemented — Verification Pending
+Status: Educator Outreach Foundation Live — Private Review Underway
 
 Completed:
 
@@ -52,6 +52,10 @@ conditional on feedback or testing.
 The canonical implementation plan is maintained in the Android repository at
 `docs/EDUCATOR_OUTREACH_IMPLEMENTATION_PLAN.md`.
 
+Eight individualized private educator-review messages were sent September
+8–9, 2026. Responses are pending. Five organizational gatekeeper channels have
+been selected but not contacted, and no broad sharing has begun.
+
 The first public release remains focused on English-speaking learners of
 Spanish. The next intended product direction is English verb support for
 English learners, beginning with Spanish speakers.
@@ -69,7 +73,7 @@ Verified September 1, 2026:
 
 Remaining work consists primarily of:
 
-- Private educator review before broad outreach
+- Completed educator reviews and validation before broad outreach
 - Final content review
 - Accessibility review
 - Cross-browser testing
