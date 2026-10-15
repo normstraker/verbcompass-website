@@ -30,8 +30,8 @@
 - [x] Add an educator feedback path that does not require a Google-account email
 - [x] Add teacher, tutor, and program-leader options to the Founding Tester form
 - [x] Review Privacy Policy coverage for the educator feedback path
-- [ ] Confirm Netlify detects the `educator-feedback` form on a deploy preview
-- [ ] Configure and verify its notification to `support@verbcompass.com`
+- [x] Confirm Netlify detects the `educator-feedback` form
+- [x] Configure and verify its notification to `support@verbcompass.com`
 - [ ] Verify the educator page and form on desktop and mobile
 - [ ] Complete accessibility, link, and submission checks
 - [ ] Complete a small private educator review before broad outreach
