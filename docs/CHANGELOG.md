@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+### Tester confirmations — October 15, 2026
+
+- Added two required, initially unchecked request-form confirmations: age 18 or
+  older and the submitted email being the account used for Google Play on the
+  applicant’s Android device. Both confirmation values accompany the request.
+- Local browser checks verify each checkbox is independently required, both
+  values reach form data, the existing Netlify destination is preserved, and
+  the form fits a 390-pixel phone viewport. No live form was submitted.
+
 ### Outreach Status — September 9, 2026
 
 - Recorded that eight individualized private educator-review messages were

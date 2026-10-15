@@ -1,6 +1,19 @@
-# Next Session Handoff — Educator Outreach Response Window
+# Next Session Handoff — Founding Tester confirmations
 
-**Last Updated:** September 9, 2026
+**Last Updated:** October 15, 2026
+
+Current change on website branch `feature/educator-outreach`: the Founding
+Tester request form requires separate confirmations of age 18+ and use of the
+submitted email account for Google Play on the applicant’s Android device.
+Local validity, submitted-field and phone-layout checks pass; no real request
+was submitted. This is self-confirmation, not independent age/account
+verification. Deployment/live Netlify field capture remains to be checked after
+push. The app repository’s `planning/multilanguage-platform` is unchanged.
+
+The owner reports no volunteer testers joined after earlier outreach. Paid
+Reddit recruitment is under discussion; no advertising purchase or new outreach
+was authorized/performed in this change. The earlier response-window notes below
+are historical.
 
 The website work required for Founding Tester recruitment and feedback is live
 and verified. General Reddit recruitment has not produced the needed tester
