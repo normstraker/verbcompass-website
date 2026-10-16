@@ -1,6 +1,14 @@
-# Next Session Handoff — Founding Tester confirmations
+# Next Session Handoff — Marketing restart
 
-**Last Updated:** October 15, 2026
+**Last Updated:** October 16, 2026
+
+Start with **docs/MARKETING_HANDOFF.md** for the next conversation. It records
+the free Spanish browser offer, proposed $50 Reddit trial (not approved spend),
+repository/branch separation, current deployment evidence and next steps.
+
+Website confirmations were merged and pushed to main as **94ce343** and both
+required fields were verified live. Earlier pending-deployment statements below
+are historical. No new campaign, outreach or advertising purchase has occurred.
 
 Current change on website branch `feature/educator-outreach`: the Founding
 Tester request form requires separate confirmations of age 18+ and use of the
