@@ -1,4 +1,39 @@
-# Next Session Handoff — Marketing restart
+# Next session — EUV-first tester recruitment
+
+Updated October 20, 2026.
+
+Read [COMBINED_APP_LAUNCH_PLAN.md](COMBINED_APP_LAUNCH_PLAN.md) and the current
+section of [MARKETING_HANDOFF.md](MARKETING_HANDOFF.md) before acting.
+
+Current sequence: qualify the current EUV Android offer and permanent reward,
+prepare/approve a small Reddit recruitment campaign, then support that cohort
+while preparing the combined EUV/SUV update. Update the same app/closed track
+and meaningfully test the combined build before applying for production access.
+Do not require completion of all SUV work before EUV recruitment; current-build,
+reward-delivery and policy gates still precede paid launch.
+
+First audience: English speakers learning Spanish. SUV is English for Spanish
+speakers and has no CEFR setting; its free Study starter set is undecided, with
+a separate 25-verb Reference allowance proposed. One combined permanent purchase
+remains the product direction. Finalize the initial recruitment reward scope:
+Spanish-only was suggested but not approved to replace the combined proposal.
+Resolve platform-policy uncertainty for the exact reward offer before spending.
+No rewards for public reviews/ratings or artificial installs.
+
+Confirmed via screenshots: existing download locked free; merchant setup needed;
+active Alpha release 1.0.3/code 3; releases signed by Play. Upload-key match,
+highest uploaded code, qualifying tester count and entitlement fulfillment remain
+unverified. Next audit current EUV access/feedback and reward implementation needs.
+
+Keep the browser app and tester links unchanged; use the existing Founding Tester
+page with required age/Google-account confirmations. Up to $500 is willingness to
+spend, not launch permission. No external publishing, outreach or charges authorized.
+
+Plan and handoff edits are local/uncommitted in website main as of this update.
+Verify status before work. Preserve app branches, generated directories and the
+completed 1,500-headword dataset. Older instructions below are historical only.
+
+## Previous handoff and historical evidence
 
 **Last Updated:** October 16, 2026
 

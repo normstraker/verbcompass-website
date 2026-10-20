@@ -1,4 +1,65 @@
-# Marketing handoff — October 16, 2026
+# Marketing handoff — EUV-first recruitment, October 20, 2026
+
+## Current direction — read first
+
+Start with [COMBINED_APP_LAUNCH_PLAN.md](COMBINED_APP_LAUNCH_PLAN.md), the authoritative
+current sequence and decision record. This section supersedes earlier free-browser-first
+and combined-update-before-recruitment strategies.
+
+1. Prepare paid Reddit recruitment for the current EUV Android closed test first:
+   English speakers learning Spanish, through the existing Founding Tester page.
+2. Before launch, verify the current Play build, meaningful test tasks, enrollment,
+   exact reward terms and dependable permanent-access delivery. Merchant setup and
+   unfinished billing remain work; a focused EUV update may be necessary first.
+3. Prepare the combined EUV/SUV update while that cohort participates. Do not make
+   all SUV work a prerequisite for EUV recruitment. SUV teaches English to Spanish
+   speakers; it has no CEFR setting, and free Study starter limits remain undecided.
+4. Keep the same app/package and closed-test track, preserve enrollment and progress,
+   and collect meaningful combined-build feedback before seeking production access.
+   EUV participation alone does not prove SUV readiness or guarantee approval.
+
+The product direction remains one free Android download and one permanent purchase
+unlocking both courses. Campaign reward scope and timing need final explicit terms:
+a Spanish-only initial reward was recommended but not approved as a replacement for
+the proposed combined reward. Do not imply future English features are already in Play.
+
+The exact lifetime-reward recruitment offer has not been explicitly approved by Google
+or Reddit. No rewards for public ratings/reviews, positivity or artificial installs.
+Resolve policy ambiguity before paid launch; prepare support questions without sending.
+
+Leave the free browser app and its tester information/links unchanged, preserving
+educator paths. Keep browser use independent of Play participation. Continue to use
+https://www.verbcompass.com/founding-testers/ and preserve both required confirmations.
+
+Owner willingness: up to $500, starting small. This is a planning envelope, not a
+charge/launch authorization. No new ads, posts, outreach messages, website publication,
+Play upload or production application has been authorized by this documentation update.
+
+## Verified facts and next action
+
+Owner screenshots confirmed the existing com.verbcompass.app listing is locked to a
+free download; One-time products requires merchant setup; Alpha is active at release
+1.0.3 Closed Alpha 1 / code 3; releases are signed by Play. Upload-key matching, highest
+uploaded code across tracks, qualifying tester count and product setup remain unverified.
+Do not request screenshots already supplied as though they were missing.
+
+Next perform a read-only audit of the current EUV access/feedback behavior and permanent
+reward implementation needs. Resolve the reward's exact scope and timing before public
+copy. Select app implementation branch deliberately after verifying repository status.
+
+Website work is local in C:\Repos\verbcompass-website on main, with this plan and handoff
+changes uncommitted/unpushed as of October 20. The earlier handoff commit dcea91a is local.
+Recheck status at continuation. App was last inspected on feature/free-web-promotion at
+b393ae7; planning/multilanguage-platform contains the combined work. Read-only inspection
+has not switched app branches or modified generated directories. Preserve the fixed
+1,500-headword dataset, planning work, private records and existing progress.
+
+## Historical handoff — superseded strategy, retained context
+
+The sections below record the previous campaign direction. Their repository,
+privacy and completed-work evidence remains useful, but their free-first offer,
+Spanish-only reward restriction, $50 ceiling and next-step priorities do not
+override the current plan above.
 
 ## Objective and agreed offer
 
