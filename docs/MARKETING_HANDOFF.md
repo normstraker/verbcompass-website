@@ -1,6 +1,54 @@
 # Marketing handoff — EUV-first recruitment, October 20, 2026
 
+## Saved checkpoint — October 22, 2026 (read first)
+
+Owner stopped for the day and authorized documenting, committing and pushing
+current work. Resume October 23 from this checkpoint; older prerequisites below
+are historical where they conflict.
+
+- Google Payments merchant profile created by owner; payout method and separate
+  15% service-fee enrollment remain unfinished. No purchase or charge occurred.
+- Play product saved successfully: `full_library_unlock`, name Full Access;
+  purchase option `full-access-buy`, Buy, backward compatible, **Draft**.
+- Owner approved USD 9.99 one time. U.S. price was verified before saving;
+  saved option lists United States only. Other regions were made unavailable
+  for this purchase option after missing-price validation blocked draft saving.
+  This does not change the app's closed-test release countries.
+- Product description currently promises permanent Spanish verbs, all CEFR study
+  levels and unlimited Reference, without subscription. Digital app sales,
+  All ages. Combined-course purchase remains the direction; update description
+  when that content is actually supported. Never create a duplicate product ID.
+- **Do not activate yet.** Implement and test verified permanent ownership,
+  acknowledgement, restore, promo redemption and migration before paid access.
+  Draft configuration is not evidence of live lookup or working entitlements.
+- Tomorrow: inspect the saved option if needed, then continue the isolated
+  entitlement branch; preserve current tester Full Access and free browser.
+  Review international tester redemption before broader recruitment.
+- Corrected reward timing: no arbitrary 30-day activation deadline. Qualifying
+  testers must receive earned permanent access before future paid restrictions
+  affect them. Seven-day completion review remains a proposed operational target;
+  prove fulfillment before publishing. Existing full testing access is distinct
+  from verified permanent Play ownership.
+- Current page/ad/reward text is prepared for review. Push is authorized now;
+  no ad purchase, outreach, Play upload or explicit site publication is authorized.
+  Check any automatic deployment triggered by the website push before describing
+  the page as unpublished; no live deployment verification done this session.
+
+
+Latest preparation: [REDDIT_EUV_CAMPAIGN_DRAFT.md](REDDIT_EUV_CAMPAIGN_DRAFT.md)
+records the owner-approved example. Matching Founding Tester HTML is a local,
+unpublished draft: full Spanish Android access during closed testing, permanent
+Spanish Full Access earned through participation. No public limited Android
+download is offered before production. Reward delivery/timing and policy review
+remain launch gates; no publication, messages or charges are authorized.
+
 ## Current direction — read first
+
+Use `C:\Repos\verbcompass-private\founding-tester-roster.csv` as the existing
+private tester tracker for new Reddit recruits (owner confirmed October 22).
+Do not create a separate Reddit tester roster. Inspect its columns before adding
+missing source/campaign, enrollment, feedback, qualification or fulfillment fields.
+Keep identities and reward codes out of Git; educator outreach tracking is separate.
 
 Start with [COMBINED_APP_LAUNCH_PLAN.md](COMBINED_APP_LAUNCH_PLAN.md), the authoritative
 current sequence and decision record. This section supersedes earlier free-browser-first
@@ -18,10 +66,10 @@ and combined-update-before-recruitment strategies.
    and collect meaningful combined-build feedback before seeking production access.
    EUV participation alone does not prove SUV readiness or guarantee approval.
 
-The product direction remains one free Android download and one permanent purchase
-unlocking both courses. Campaign reward scope and timing need final explicit terms:
-a Spanish-only initial reward was recommended but not approved as a replacement for
-the proposed combined reward. Do not imply future English features are already in Play.
+The future product direction remains one free Android download and one permanent
+purchase unlocking both courses. The latest initial campaign draft covers Spanish
+access, with no future English course promised. Honor broader prior individual
+commitments. Reward delivery timing still needs final terms before public launch.
 
 The exact lifetime-reward recruitment offer has not been explicitly approved by Google
 or Reddit. No rewards for public ratings/reviews, positivity or artificial installs.

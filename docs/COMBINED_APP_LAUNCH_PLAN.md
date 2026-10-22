@@ -1,8 +1,68 @@
 # Combined Android app and Founding Tester launch plan
 
+## Saved checkpoint — October 22, 2026 (read first)
+
+Owner stopped for the day and authorized documenting, committing and pushing
+current work. Resume October 23 from this checkpoint; older prerequisites below
+are historical where they conflict.
+
+- Google Payments merchant profile created by owner; payout method and separate
+  15% service-fee enrollment remain unfinished. No purchase or charge occurred.
+- Play product saved successfully: `full_library_unlock`, name Full Access;
+  purchase option `full-access-buy`, Buy, backward compatible, **Draft**.
+- Owner approved USD 9.99 one time. U.S. price was verified before saving;
+  saved option lists United States only. Other regions were made unavailable
+  for this purchase option after missing-price validation blocked draft saving.
+  This does not change the app's closed-test release countries.
+- Product description currently promises permanent Spanish verbs, all CEFR study
+  levels and unlimited Reference, without subscription. Digital app sales,
+  All ages. Combined-course purchase remains the direction; update description
+  when that content is actually supported. Never create a duplicate product ID.
+- **Do not activate yet.** Implement and test verified permanent ownership,
+  acknowledgement, restore, promo redemption and migration before paid access.
+  Draft configuration is not evidence of live lookup or working entitlements.
+- Tomorrow: inspect the saved option if needed, then continue the isolated
+  entitlement branch; preserve current tester Full Access and free browser.
+  Review international tester redemption before broader recruitment.
+- Corrected reward timing: no arbitrary 30-day activation deadline. Qualifying
+  testers must receive earned permanent access before future paid restrictions
+  affect them. Seven-day completion review remains a proposed operational target;
+  prove fulfillment before publishing. Existing full testing access is distinct
+  from verified permanent Play ownership.
+- Current page/ad/reward text is prepared for review. Push is authorized now;
+  no ad purchase, outreach, Play upload or explicit site publication is authorized.
+  Check any automatic deployment triggered by the website push before describing
+  the page as unpublished; no live deployment verification done this session.
+
+
 Updated: October 20, 2026. Status: EUV-first recruitment preparation; no release or advertising launch.
 
 ## Direction and authority
+
+Tester tracking decision, October 22: the existing private
+`C:\Repos\verbcompass-private\founding-tester-roster.csv` is the single tester
+record for Reddit recruits as well as other sources. Inspect its columns and
+add only missing fields for source/campaign, enrollment, participation, feedback,
+qualification and reward fulfillment. No duplicate Reddit tester roster; no
+participant identities or reward codes in Git. Educator outreach records remain
+separate. This documentation does not modify roster contents.
+
+October 22 clarification: the existing EUV closed test can accept testers without
+completed purchasing/billing. Permanent entitlement is a separate earned-benefit
+obligation. Do not delay volunteer intake solely for SUV or full checkout work.
+For public advertising, establish achievable reward terms and a credible grant
+route. [FOUNDING_TESTER_REWARD_TERMS.md](FOUNDING_TESTER_REWARD_TERMS.md) contains
+proposed seven-day review/30-day fulfillment terms for owner review, not approved
+deadlines. The owner explicitly requires confirmation before any purchase/charge.
+
+Latest offer refinement: recruit directly into the existing Spanish Android
+closed test with full access during testing and permanent Spanish Full Access
+after the participation requirements. The owner approved the example ad and
+authorized preparing the matching page locally. See
+[REDDIT_EUV_CAMPAIGN_DRAFT.md](REDDIT_EUV_CAMPAIGN_DRAFT.md) for that copy and
+remaining launch gates. Do not advertise the limited Android free tier as a
+publicly available download before production access. Browser access remains
+separate. Draft approval is not platform approval, publication or spending approval.
 
 Recruit genuine testers for the existing EUV Android app first, through the
 existing https://www.verbcompass.com/founding-testers/ page and a small paid
@@ -40,20 +100,17 @@ use remains free, optional, and independent of qualifying Google Play testing.
 | Item | Proposed default | Remaining decision/check |
 | --- | --- | --- |
 | Android business model | Free download with a one-time, non-consumable Full Access purchase | Check existing Play pricing/products and approve model |
-| Tester reward | Permanent Full Access to both included courses and updates to those courses, without recurring fees | Approve exact scope; future separately sold courses excluded by default |
+| Initial campaign reward | Permanent Spanish Android Full Access and Spanish-course updates, without recurring fees | Latest approved ad basis; finalize fulfillment timing and honor prior promises; future English access not advertised |
 | Qualification | Remain opted in for at least 14 consecutive days, use the app meaningfully during that period, and provide brief honest feedback | Publish specific achievable tasks and completion process |
 | Reward delivery | Individual Google Play promo code for a permanent Full Access product | Implement and prove redemption, acknowledgement and restoration |
 | First paid audience | English speakers learning Spanish, adults with Android/Google Play | Verify selectable Reddit audiences, locations and device targeting |
 | Second audience | Separate Spanish campaign for Spanish speakers learning English | Prepare after first funnel evidence; no automatic second launch |
 
-The combined one-purchase model remains the agreed product direction. Initial
-campaign copy should describe the currently testable Spanish course. A narrower
-Spanish-only recruitment reward was suggested in the latest discussion, but
-has not been separately approved as a replacement for the proposed combined
-reward. Resolve and record the exact advertised scope before launch; do not
-silently reduce an existing promise or advertise the English course as currently
-available in the Play test. If both courses are promised, distinguish future
-delivery from what testers can install today and honor that promise.
+The combined one-purchase model remains the agreed product direction. The latest
+approved draft advertises the currently testable Spanish course and its permanent
+Full Access benefit. Future English access is not promised in this initial
+campaign. Honor any broader existing individual promises. Final fulfillment
+timing and implementation still need resolution before public launch.
 
 The reward must depend on stated participation, not positive feedback, a public
 rating/review, or Google granting production access. Do not require daily use as
@@ -67,15 +124,20 @@ Do not imply an unlimited promise of every future VerbCompass product or service
 
 ## Both-course Free and Full Access requirements
 
+Read [ANDROID_ACCESS_AUDIT.md](ANDROID_ACCESS_AUDIT.md) for the October 20 source
+findings and next implementation slice. Source inspection is not installed
+Play-build verification; inspected EUV code defaults to local Full Access.
+
 The owner confirmed that the newer course must also have Free and Full Access
 behavior. These are two access states within the same combined Android app,
 not separate Free and Paid app listings.
 
 - One permanent, non-consumable Full Access entitlement unlocks both included
   courses. Qualifying testers receive that same combined entitlement free.
-- Preserve the existing Spanish course's intended free model: A1-only Study
-  (documented as 76 verbs) and 25 unique Reference verbs with unlimited revisits.
-  Verify actual enforcement against the existing access implementation.
+- Preserve the existing Spanish free model: A1-only Study (documented as 76 verbs;
+  actual count still to verify), included A1 Reference access and 25 additional
+  unique Reference verbs with unlimited revisits. Source inspection corrected
+  earlier shorthand suggesting 25 total. Verify installed Play-build behavior.
 - Newer English-course free Study limit is undecided. Inspection of its settings
   provider confirms Study focus (forms/meanings) and chunk size, with no CEFR
   setting. The earlier A1-only proposal incorrectly assumed parity with Spanish
@@ -110,6 +172,13 @@ progress after an upgrade. Final free limits and entitlement scope must match
 the store listing, purchase description, tester page and onboarding.
 
 ## Verified evidence and unresolved facts
+
+Implementation checkpoint October 20: separate checkout
+`C:\Repos\verbcompass-android-entitlements` on `feature/android-tester-entitlements`
+contains an initial read-only product lookup extension. Seven JS tests and Android
+Java compile pass. It grants no access and does not purchase/restore; real lookup
+awaits merchant/product setup. Read its `docs/TESTER_ENTITLEMENT_IMPLEMENTATION.md`.
+No app installed, uploaded or published. Original app branches remain unchanged.
 
 Read-only repository inspection on October 16 found:
 
