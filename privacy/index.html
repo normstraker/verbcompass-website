@@ -107,7 +107,7 @@
 
             <p class="effective-date">
               <strong>Effective Date:</strong>
-              September 3, 2026
+              October 28, 2026
             </p>
           </div>
         </div>
@@ -286,6 +286,36 @@
               services provided by the applicable app store.
             </p>
 
+            <p>
+              When you select Restore Full Access in the Android app, the app
+              checks Google Play for a purchase or redeemed reward. If one is
+              found, it sends the product identifier, Google Play purchase token,
+              and a Play Integrity proof to our verification service over HTTPS.
+              The service checks the purchase and proof with Google and, when
+              required, acknowledges delivery of the purchase.
+            </p>
+
+            <p>
+              We store a hashed purchase identifier, the product identifier,
+              access and acknowledgement status, and the last verification time
+              in private storage hosted by Netlify. The stored verification
+              identity is derived from the purchase token; it is not your Google
+              email address. Our verification ledger does not store the original
+              purchase token or the full Integrity proof. These records support
+              restoration and help prevent duplicate grants and refund abuse.
+              They are not used for advertising or tracking your study activity.
+            </p>
+
+            <p>
+              Play Integrity processes request information, app metadata, Google
+              Play licensing status, and device attestation information to check
+              that requests come from the recognized app and an eligible device.
+              Netlify also processes network information, including the request's
+              IP address, to deliver and protect the service and limit excessive
+              requests. Your study progress and Custom Verb Pool are not included
+              in these verification requests.
+            </p>
+
             <h2>4. Third-Party Services</h2>
 
             <p>
@@ -299,10 +329,18 @@
               <li>Google Play for application distribution and billing</li>
               <li>Google Play Billing for Android purchases</li>
               <li>
+                Google Play Integrity and Android Publisher APIs for purchase
+                verification and security
+              </li>
+              <li>
                 Google Play Console for administering the Closed Testing tester
                 list
               </li>
               <li>Netlify for processing website form submissions</li>
+              <li>
+                Netlify Functions and private Blobs storage for Full Access
+                verification records
+              </li>
               <li>
                 Apple App Store and StoreKit for future iOS distribution and
                 purchases
@@ -375,7 +413,19 @@
               practices when implementing application features.
             </p>
 
-            <h2>9. Form Information Retention and Requests</h2>
+            <h2>9. Information Retention and Requests</h2>
+
+            <p>
+              Purchase-verification records are retained as needed to support
+              permanent access, restoration, and fraud prevention, including
+              records of revoked or refunded purchases. To request information
+              about or deletion of these records, contact
+              <a href="mailto:privacy@verbcompass.com">privacy@verbcompass.com</a>.
+              We may need information to identify your purchase, and may retain
+              limited records where needed for security or legal obligations.
+              Never send passwords, payment credentials, or Integrity proofs by
+              email.
+            </p>
 
             <p>
               Information from requests that do not result in participation in

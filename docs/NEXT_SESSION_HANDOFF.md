@@ -1,5 +1,170 @@
 # Next session — EUV-first tester recruitment
 
+## Netlify adapter checkpoint — October 26, 2026
+
+Owner's Blobs screenshot shows the empty-store introduction for the existing
+website project. No stores or records have been created. Nothing else needs to
+be enabled in that screen to prepare code.
+
+Local candidate now includes `blob-ledger.cjs`, a disabled-by-default Netlify
+Function, separate `package.json`/lockfile, `netlify.toml`, and an explicit safe
+`public/` directory. Official SDKs are installed only inside server/entitlements;
+original app node_modules junction and original app checkout were not modified.
+Core verifier now awaits durable storage operations. Strong reads and ETag-based
+conditional writes prevent conflicting claims. Refund/cancellation tombstones
+cannot be resurrected by slow verification or acknowledgement callbacks. SQLite
+reference ledger has the same terminal-revocation protection.
+
+All 39 local tests pass, including concurrent independent storage clients,
+function restart persistence, revoked-token races, CORS/preflight and disabled
+preview/missing-credential paths. Real Netlify SDK imports/interface checked;
+no remote Blobs reads/writes or Google account/API verification occurred. Android
+native compile last passed before these server/JS-only changes.
+
+Proposed deployment is a **separate verification project on the existing Legacy
+Free team**, with base directory server/entitlements and publish directory public.
+Do not point the existing public website at this directory or copy server source
+into the website's static publish tree. New endpoint publication still needs
+owner authorization; no project/deploy has been created. Account free limits are
+shared operational risk; keep usage monitoring, code rate limits and plan intact.
+Code rate limit is 10 requests per 60 seconds per domain/IP, available on Free;
+remote enforcement still needs confirmation at deployment. No quota bypass or
+background worker is assumed.
+
+The candidate requires production context AND explicit
+VERBCOMPASS_VERIFICATION_ENABLED=true before processing. Android origin is
+https://localhost; preview branches remain disabled. It accepts no test receipts.
+A separate isolated test-service configuration is still needed for fake-payment
+license testing. Normal promo receipts must be tested against actual Google data.
+
+Credential adapter currently supports a server-only service-account JSON secret
+using Google's official auth library. This is an implementation option, NOT
+permission to create/export a key. Decide/approve secure credential provisioning
+before use. Secret would be Functions-scoped/production-only, never an app asset,
+chat message or Git file. Prefer managed identity/federation where demonstrably
+supported; none has been configured. No key, endpoint, payment method, upgrade,
+paid hosting or purchase activation created. Privacy review, user-facing restore/
+persistence, actual free redemption/reinstall and production ack reliability
+remain gates before enforcing paid access. New changes are uncommitted locally.
+
+Sources:
+- https://docs.netlify.com/build/data-and-storage/netlify-blobs/
+- https://docs.netlify.com/build/functions/api/
+- https://docs.netlify.com/manage/security/secure-access-to-sites/rate-limiting/
+
+
+### Compute allowance checked — October 26
+
+Latest owner screenshot shows no regular serverless-function requests and no
+Edge Function requests in the selected period. Netlify's current Legacy plans
+documentation lists 125,000 regular Function invocations per site/month for Free.
+This appears ample for the planned small tester cohort; it is a capacity estimate,
+not proof of production readiness or unlimited free hosting. Keep Legacy Free.
+No upgrade/payment/plan migration needed for this inspection. Free quotas are
+hard limits; usage spikes can pause account sites, so rate limits and monitoring
+must precede a public verification endpoint. Background processing is not assumed
+available on this plan.
+
+Next account inspection: VerbCompass project > Data & storage > Blobs. Netlify
+Blobs is a candidate private persistent ledger using strong reads and atomic
+conditional writes; adapt/test the ledger rather than use ephemeral SQLite.
+Server credential provision, deployment approval and real promo tests remain
+pending. No stored tester/payment data was read or created during inspection.
+
+Sources checked:
+- https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/legacy-pricing-plans/
+- https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-legacy-plans/billing-faq-for-legacy-plans/
+- https://docs.netlify.com/build/functions/usage-and-billing/
+- https://docs.netlify.com/build/data-and-storage/netlify-blobs/
+
+
+## Netlify hosting inspection — October 26, 2026
+
+Owner's shared Usage & billing screen confirms the existing website team is on
+**Free / Legacy**, displayed plan cost $0. Current displayed usage: bandwidth
+173 MB of 100 GB, build minutes 3 of 300. Plan includes 1M **Edge Function**
+invocations; this is not proof of the regular Node Functions compute allowance.
+No upgrade, credit-plan migration, payment-method entry or new service authorized.
+Next manual check: Account usage insights > Compute for regular Functions
+allowance/usage, then determine whether a private durable ledger and secure
+Google credential provider can fit the existing plan. Existing SQLite is local
+only and must not be placed on ephemeral function storage. Do not promise zero
+ongoing cost or deploy a new verification endpoint from these figures alone.
+
+The preceding project-overview screenshot also confirms website main commit
+`b08f752` was automatically published on October 22. Treat the Founding Tester
+page changes in that commit as deployed, superseding earlier unpublished/local
+claims. This is dashboard deployment evidence; live form/reward fulfillment
+was not tested. New October 26 edits remain local/uncommitted and unpublished.
+No personal billing/contact information from screenshots is recorded here.
+
+
+## Cloud setup confirmed — October 26, 2026
+
+Owner completed these steps manually; verified by shared Console screenshots:
+- Google Cloud project VerbCompass, ID `verbcompass`, number `42384135159`.
+- Google Play Android Developer API and Google Play Integrity API enabled.
+- Service account VerbCompass Purchase Verification created, with no Cloud project
+  IAM role or additional principals selected. Actual generated account email is
+  `verbcompass-purchase-verificat@verbcompass.iam.gserviceaccount.com` (ID shortened
+  by Google; do not replace it with the originally suggested longer name).
+- Service account added to Play Console and shown Active, scoped to
+  `com.verbcompass.app`. Selected app permissions: View app information,
+  inherited View app quality information, View financial data, and Manage orders
+  and subscriptions. No account-wide, Admin, publishing or store-management
+  permissions were requested.
+- Owner reviewed the Integrity terms discussion and linked project 42384135159
+  in Play Integrity settings. Screenshot confirms daily usage limit 10,000 and
+  App licensing, Application integrity, Device integrity On. Optional recent
+  activity/device attributes/Play Protect/app access risk remain Off.
+- No credential key downloaded, runtime credential provider configured, hosting
+  deployed, billing enrollment or charge performed. No live verification or promo
+  redemption test. Full Access product remains Draft based on last verified state.
+
+App signing certificate confirmed October 26 (owner pasted the fingerprint):
+- SHA-256 hex: `56:3E:47:C8:6D:17:B0:14:C4:1D:4E:C2:6D:7A:E5:FD:51:8B:A6:7E:09:FE:1F:0C:5E:8A:23:49:C6:2E:82:AB`
+- Play Integrity base64url: `Vj5HyG0XsBTEHU7CbXrl_VGLpn4J_h8MXoojScYugqs`
+These are public certificate identifiers, not private keys. Public configuration
+is recorded in `server/entitlements/config.example.json`; no live endpoint or
+secret is configured. Next prerequisite is approved hosting with durable private
+storage and a runtime credential provider, then endpoint configuration and real
+promo-code redemption/restore testing.
+
+Cloud number above can be used in native configuration when ready. Do not request
+private keys or create a downloadable service-account key as an automatic next step.
+Privacy/Data safety review, user-facing restore/persistence, live account tests
+and free-code redemption/reinstall proof are still pending. This checkpoint
+supersedes older statements that the Cloud project was unknown/not created.
+
+
+## October 26 continuation — step 2 in progress
+
+Owner reconfirmed the priority: prepare Google Play and recruit English-speaking
+Spanish learners on Reddit; combined app follows. Current task is proving a free
+permanent promo-code reward and restore, not completing all public checkout work.
+
+The isolated app branch now has local purchase inventory, restore/Play Integrity
+plumbing and a private verification-service implementation. All 32 local tests
+and Android Java compile pass. No new VerbCompass login is introduced; no current
+tester/browser access state changed. These changes are local/uncommitted.
+Read `C:\Repos\verbcompass-android-entitlements\server\entitlements\README.md`
+and that checkout's `docs/TESTER_ENTITLEMENT_IMPLEMENTATION.md` before continuing.
+
+Owner answered **Not sure** about an existing Google Cloud project. Next external
+action is inspect the Cloud project selector before creating a project. API
+permissions, hosting with durable private storage, signing certificate and native
+configuration remain needed. Privacy disclosures, user-facing restore/migration
+and actual promo redemption/reinstall tests are still pending. No service is
+deployed, credential configured, product activated, code issued, APK installed or
+uploaded, ad launched or charge made. Step 2 is NOT complete from mock tests alone.
+
+Subsequent October 26 owner authorization: create a Google Cloud project if
+necessary. Check/reuse an existing suitable project first. A project is needed
+for our selected server verification/Play Integrity approach; it is not an
+unfinished requirement for saving the $9.99 product draft. Project existence is
+unconfirmed; creation and API setup remain pending. Paid hosting/resources,
+billing/payment enrollment and charges require separate owner approval.
+
 ## Saved checkpoint — October 22, 2026 (read first)
 
 Owner stopped for the day and authorized documenting, committing and pushing
@@ -202,3 +367,29 @@ Keep prospect details, tester emails, and submitted feedback private. Use the
 Android repository's `docs/CLOSED_TEST_FEEDBACK_WORKFLOW.md` and
 `docs/EDUCATOR_OUTREACH_IMPLEMENTATION_PLAN.md` as the canonical operating
 instructions.
+
+## Connected Android restore checkpoint — October 27, 2026
+
+Netlify published 2daea48. Live empty POST now returns 401 unauthorized instead
+of disabled 503; Android-origin preflight returns 204. This demonstrates the
+handler runs and rejects missing proof, not that Google accepted a real receipt.
+Google credential contents were never inspected. Secret is Production-only,
+scoped Builds/Functions/Runtime because finer scopes require a paid upgrade.
+
+Local Android configuration now names project 42384135159 and endpoint
+https://verbcompass-verification.netlify.app/v1/play/restore. Information includes
+an Android-only Restore Full Access panel with pending/no-purchase/unavailable
+messages and duplicate-click protection. Verified ownership is displayed only
+following the existing server-confirmed result. No token or entitlement is saved
+in browser storage, and no access restriction or paid purchase flow was added.
+This confirmation UI is not the future offline access enforcement mechanism.
+All 42 tests pass; assembleDebug passed offline. Browser visual smoke test was
+blocked by unavailable sandbox browser runtime; layout remains visually unverified.
+Generated Capacitor host-specific dependency paths were restored after building.
+No build was installed or uploaded. App version/code remain 1.0.3/3, unsuitable
+for another Play upload unchanged. Next prepare a signed internal-test bundle
+with a fresh version code, then obtain owner authorization before uploading or
+rolling out. Use a dedicated test account/device; do not uninstall owner data.
+Product remains Draft based on last evidence; activation and promo-code creation
+still required before the real free redemption/reinstall test. Privacy/Data safety
+review and safe offline entitlement persistence remain before paid restrictions.
